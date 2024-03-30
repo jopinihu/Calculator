@@ -69,7 +69,7 @@ function App() {
         <Info>{result !== "" ? result : selectNumber}</Info>
         <Buttons
           selectedNumber={selectedNumber}
-          clearCalculator={clearCalculator}
+          // clearCalculator={clearCalculator}
         />
       </Calculator>
     </>

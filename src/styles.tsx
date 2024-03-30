@@ -16,9 +16,8 @@ export const Calculator = styled(Grid)(() => ({
   boxShadow: "2px 2px 15px #b39c4d",
 }));
 export const Info = styled(Grid)(() => ({
-  height: "7vh",
+  height: "9vh",
   marginBottom: 2,
-  borderRadius: "5px",
   display: "flex",
   fontSize: "40px",
   alignItems: "flex-end",
@@ -27,7 +26,7 @@ export const Info = styled(Grid)(() => ({
   padding: "5px",
 }));
 export const ButtonTable = styled(Grid)(() => ({
-  height: "45vh",
+  height: "100%",
   display: "grid",
   backgroundColor: "#ebebd3",
   gridTemplateColumns: "repeat(4, 1fr)",
